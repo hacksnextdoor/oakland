@@ -3,6 +3,7 @@
 	"bodyLimit": "100kb",
 	"corsHeaders": ["Link"],
 	"db": {
-		"url":"mongodb://admin:hacks@ds019946.mlab.com:19946/ryde-board"
+		"url":"",
+		"urlExample": "mongodb://username:pass@instanceURL:port/dbname"
 	}
 }

@@ -13,7 +13,7 @@ Docker Support
 ```sh
 
 # Build your docker
-docker build -t es6/api-service .
+docker build -t es6/oakland  .
 #            ^      ^           ^
 #          tag  tag name      Dockerfile location
 
@@ -66,6 +66,18 @@ $ yarn deploy
 ```sh
 $ npm deploy
 ```
+
+Database Setup
+-------------------------
+To set the url db instance, please goto `config.json` and under db set the url field accordingly.
+```json
+
+"db": {
+  "url": "<Your MongoDB URL Instance>"
+}
+
+```
+We recommend using [mongolabs](https://mlab.com) for setting up instances. The only db we currently support is MongoDB. If you are looking for support for other DBs please write an issue!
 
 
 Docker Demo
