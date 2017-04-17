@@ -3,7 +3,6 @@
 	"bodyLimit": "100kb",
 	"corsHeaders": ["Link"],
 	"db": {
-		"url":"",
-		"urlExample": "mongodb://username:pass@instanceURL:port/dbname"
+		"url":""
 	}
 }
